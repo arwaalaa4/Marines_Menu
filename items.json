@@ -1,0 +1,403 @@
+{
+  "categories": [
+    { "id": 1, "name": "مشاوي" },
+    { "id": 2, "name": "باستا" },
+    { "id": 3, "name": "بيتزا" },
+    { "id": 4, "name": "عصائر" },
+    { "id": 5, "name": "مشروبات ساخنة" }
+   
+  ],
+  "items": [
+   
+    {
+      "recipe_id": 1,
+      "category_id": 1,
+      "category": "Main Course",
+      "name": "دجاج مشوي",
+      "description": "صدر دجاج متبل ومشوي، يُقدم مع أرز وخضار",
+      "price_egp": 150,
+        
+      "image": "./MenuItems/grill_chicken.jpg",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 2,
+      "category_id": 1,
+      "category": "Main Course",
+      "name": "كباب",
+      "description": "لحم بقري مشوي، يُقدم مع بطاطس مهروسة",
+      "price_egp": 220,
+      "image": "./MenuItems/grill_kepap.jpg",
+      "has_offer": true
+    },
+    {
+      "recipe_id": 3,
+      "category_id": 1,
+      "category": "Main Course",
+      "name": "طرب",
+      "description": "قطع دجاج مقلية مقرمشة مع توابل خاصة",
+      "price_egp": 140,
+      "image": "./MenuItems/grill_tarb.jpg",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 4,
+      "category_id": 1,
+      "category": "Main Course",
+      "name": "حمام محشي",
+      "description": "كفتة وكباب ودجاج مشوي مع أرز",
+      "price_egp": 260,
+      "image": "./MenuItems/grill_ham.jpg",
+      "has_offer": true
+    },
+
+    {
+      "recipe_id": 5,
+      "category_id": 2,
+      "category": "Pasta",
+      "name": "ألفريدو بالدجاج",
+      "description": "مكرونة بصوص كريمي مع قطع دجاج",
+      "price_egp": 120,
+      "image": "/MenuItems/pasta_alfredo.webp",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 6,
+      "category_id": 2,
+      "category": "Pasta",
+      "name": "سباجيتي بولونيز",
+      "description": "مكرونة مع صوص طماطم ولحم مفروم",
+      "price_egp": 135,
+      "image": "/MenuItems/pasta_polo.jpg",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 7,
+      "category_id": 2,
+      "category": "Pasta",
+      "name": "مكرونة سي فود",
+      "description": "مكرونة مع جمبري وكاليماري وصوص خاص",
+      "price_egp": 180,
+      "image": "/MenuItems/pasta_seafood.webp",
+      "has_offer": true
+    },
+    
+    {
+      "recipe_id": 8,
+      "category_id": 2,
+      "category": "Pasta",
+      "name": "بيني أرابياتا",
+      "description": "مكرونة بصوص طماطم حار وثوم",
+      "price_egp": 110,
+      "image": "./MenuItems/pasta_penna.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 9,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا مارجريتا",
+      "description": "بيتزا الجبن والطماطم والريحان",
+      "price_egp": 110,
+      "image": "./MenuItems/pizza_margh.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 10,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا تشيكن رانش",
+      "description": "بيتزا الدجاج والخضروات وصوص الرانش",
+      "price_egp": 110,
+      "image":"./MenuItems/pizza_ranch.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 11,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا ميكس تشيز",
+      "description": "بيتزا الجبنة التشيدر والجبنة الكريمي مع جبنة الموزاريلا",
+      "price_egp": 110,
+      "image": "./MenuItems/pizza_mixcheese.webp",
+      "has_offer": false
+    },
+
+{
+      "recipe_id": 12,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا خضروات",
+      "description": "بيتزا بقطع الخضروات والصلصة",
+      "price_egp": 110,
+      "image": "./MenuItems/pizza_veg.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 13,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا بيبروني",
+      "description": "بيتزا بقطع البيبروني وقطع الخضار",
+      "price_egp": 110,
+      "image": "./MenuItems/pizza_pip.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 14,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا كرسبي دجاج",
+      "description": "بيتزا الدجاج المقرمش مع الجبن الشيدر",
+      "price_egp": 110,
+      "image": "./MenuItems/pizza_crispychicken.avif",
+      "has_offer": false
+    },
+{
+      "recipe_id": 15,
+      "category_id": 3,
+      "category": "Pizza",
+      "name": "بيتزا ميكس دجاج",
+      "description": "بيتزا الدجاج المشوي مع قطع البانيه وحلقات البصل المكرمل",
+      "price_egp": 110,
+      "image": "./MenuItems/pizza_mixchicken.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 16,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "عصير برتقال",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_orange.webp",
+      "has_offer": false
+    },
+{
+      "recipe_id": 17,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "عصير فراولة",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_strawberry.jfif",
+      "has_offer": false
+    },
+{
+      "recipe_id": 18,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "عصير مانجو",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_mango.jfif",
+      "has_offer": false
+    },
+{
+      "recipe_id": 20,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "عصير رمان",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_pom.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 21,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "بلوسكاي",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_bluesky.png",
+      "has_offer": false
+    },
+{
+      "recipe_id": 22,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "موخيتو",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_mojito.jfif",
+      "has_offer": false
+    },
+{
+      "recipe_id": 23,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "كركديه",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_carcadi.webp",
+      "has_offer": false
+    },
+{
+      "recipe_id": 24,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "فروت سالاد",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_fruitsalad.jfif",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 24,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "آيس سبانش لاتيه",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_icedspanishlatte.png",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 24,
+      "category_id": 4,
+      "category": "Juice",
+      "name": "آيس كوفي",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/juice_icedcoffe.webp",
+      "has_offer": false
+    },
+{
+      "recipe_id": 25,
+      "category_id": 5,
+      "category": "hot",
+      "name": "شاي",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_tea.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 26,
+      "category_id": 5,
+      "category": "hot",
+      "name": "قهوة تركي",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_coffee.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 27,
+      "category_id": 5,
+      "category": "hot",
+      "name": "قهوة فرنسي",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_frenchcoffee.jpg",
+      "has_offer": false
+    },
+     {
+      "recipe_id": 28,
+      "category_id": 5,
+      "category": "hot",
+      "name": "سبرسو",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_espresso.webp",
+      "has_offer": false
+    },
+{
+      "recipe_id": 28,
+      "category_id": 5,
+      "category": "hot",
+      "name": " شاي بالحليب",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_teamilk.jpg",
+      "has_offer": false
+    },
+   
+{
+      "recipe_id": 29,
+      "category_id": 5,
+      "category": "hot",
+      "name": " شاي كرك",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_carc.jpeg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 30,
+      "category_id": 5,
+      "category": "hot",
+      "name": "قرفة",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_cinnamon.jpg",
+      "has_offer": false
+    },
+     {
+      "recipe_id": 28,
+      "category_id": 5,
+      "category": "hot",
+      "name": " كركديه",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_carcadi.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 31,
+      "category_id": 5,
+      "category": "hot",
+      "name": "هوت سيدار",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_hotcidar.jpg",
+      "has_offer": false
+    },
+{
+      "recipe_id": 32,
+      "category_id": 5,
+      "category": "hot",
+      "name": "موكا",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_mocha.jpg",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 28,
+      "category_id": 5,
+      "category": "hot",
+      "name": " لاتيه",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_latte.jpg",
+      "has_offer": false
+    },
+    {
+      "recipe_id": 28,
+      "category_id": 5,
+      "category": "hot",
+      "name": " كابتشينو",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_cappu.jpg",
+      "has_offer": false
+    },
+   
+{
+      "recipe_id": 33,
+      "category_id": 5,
+      "category": "hot",
+      "name": "هوت تشوكلت",
+      "description": "",
+      "price_egp": 110,
+      "image": "./MenuItems/hot_choclate.jpg",
+      "has_offer": false
+    }
+
+
+
+   
+  ]
+}

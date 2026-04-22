@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap"
+        rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+   <style>
+        * {
+            box-sizing: border-box !important;
+        }
+
+  body{
+    background-color:#f0ddd6;
+    /*#090a35*/
+  }
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+           
+            overflow-x: hidden;
+         
+        }   
+
+        .item_img{
+             width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 6px;
+        }
+
+        .cat_activ{
+            background-color:cadetblue !important;
+            color: bisque;
+            font-weight:800;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+     
+        .nav-link>p{
+            color: navy !important;
+              height: 100%;
+     align-content: center;
+        }
+
+.nav-link:hover{
+    background-color: #f0ddd6;
+      height: 100%;
+    align-content: center;
+   
+    
+   
+}
+        p,h3 ,h1,h5,a{
+            font-family: 'Playpen Sans Arabic', 'Cairo', 'Tajawal', sans-serif;
+            font-size: larger;
+            font-weight: bolder;
+            text-align: center;
+            vertical-align: middle;
+         
+            
+           
+            
+          
+          
+            
+        }
+        .cat_txt{
+              height: 100%;
+              align-content: center;
+              
+        }
+
+        .cat{
+          background-color: bisque;
+    border: 3px solid cadetblue;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+        }
+.cat:hover{
+    background-color: bisque;
+    font-weight: bold;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.cat_activ:hover{
+     background-color:cadetblue;
+            color: bisque;
+            font-weight:900;
+            border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+        #Header {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        #logo {
+            position: absolute;
+            top: 50vh;
+            left: 50vw;
+
+
+            transform: translate(-50%, -50%) scale(1.7);
+
+
+
+        }
+        .carousel-indicators {
+  bottom: 10px;
+}
+        .item_info{
+            color:#090a35;
+            text-align: center !important;
+             height: 100% !important;
+              align-content: center !important;
+               vertical-align: middle;
+            
+        }
+    /* Layout fixes to prevent the carousel from overlapping the contact section */
+    #offers{ position: relative; z-index: 1; }
+    #carouselExample .carousel-inner{ height: 50vh !important; max-height:50vh; }
+    #contact{ clear: both; margin-top: 1.5rem; position: relative; z-index: 2; }
+    </style>
+</head>
+
+<body>
+
+    <div class="container"></div>
+
+
+    <div id="Header"  style="height: 100vh; overflow-y: hidden;background-color:bisque;">
+        
+
+<a class="btn btn-primary d-inline-block my-1 d-md-none mx-auto" style="width: fit-content;"  href="#offcanvasExample" role="button" aria-controls="offcanvasExample" id="openButton">
+ <i class="fa-solid fa-square-caret-left"></i>
+
+</a>
+<div class="offcanvas offcanvas-start"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel "  style="width: 40vw;">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">مرحبا بكم في مطعم مارينز!</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+     <ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#menu">القائمة</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#offers">عروضنا</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact">اوصل لنا</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+
+
+        <div class="d-none d-md-block" >
+            <nav id="navbar-example2" 
+                class="navbar sticky-top d-float h-100 align-items-stretch pe-4 border-end flex-row bg-body-tertiary px-lg-3">
+                 
+                
+                <ul class="nav nav-pills  ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offers">
+                            <p><i class="fa-solid fa-star"></i>عروض </p>
+                            
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">
+                            <p>القائمة</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <p>اوصل لنا</p>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+            </nav>
+        </div>
+       
+
+        <img src="./covere3.jpg" alt="" class="py-0 my-0 "
+            style="object-fit: cover; height: 100%; width: 100%; opacity: 45%;">
+
+
+        <!--  <img src="./cover2e1.jpg" alt="" style="object-fit: cover; height: 100vh; width: 100vw; opacity: 50%;;">  -->
+        <img src="./default.svg" id="logo">
+
+        
+    
+    </div>
+
+
+
+
+
+
+    
+    <div class=" row d-flex py-1 my-1 mx-auto  px-4 justify-content-center text-center "  data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+        
+        
+        <div class="row col-12 mx-sm-auto py-1 my-1 "id="menu" >
+            
+            <div class="col px-1 text-left cat" data-catid="1" >
+                <p class="cat_txt cat_activ" data-catid="1">مشاوي</p>
+            </div>
+            <div class="col px-1 text-left cat" data-catid="2" >
+                <p class="cat_txt" data-catid="2">باستا</p>
+            </div>
+            
+            <div class="col px-1 text-left cat" data-catid="3" >
+                <p class="cat_txt" data-catid="3">بيتزا</p>
+            </div>
+            <div class="col px-1 text-left cat" data-catid="4" >
+                <p class="cat_txt" data-catid="4">عصائر</p>
+            </div>
+            <div class="col px-1 text-left cat" data-catid="5" >
+                <p class="cat_txt" data-catid="5">مشروبات ساخنة</p>
+           
+        </div>
+        </div>
+
+<!--Menu Items-->
+        <div class="row gx-1 gy-1 justify-content-center "
+             id="menu_items_display">
+
+
+    
+
+        
+
+        
+    </div>
+
+
+
+
+            
+              
+              
+
+
+        
+
+
+<!--Carouse-->
+
+<div id="offers" class="gx-1" >
+  <hr>
+<h1 class="my-3" style="font-size:50px; color:#930d27;">عروضنا</h1>
+<hr>
+<div id="carouselExample" class="carousel slide mx-auto " style="width: 90vw; height: 50vh; max-height: fit-content;">
+    
+  <div class="carousel-inner " style="width: 90vw;; max-height: fit-content;">
+    <div>
+    <div class="carousel-item active ">
+      <img src="offers/off10.jpg" class="d-block w-50 mx-auto item_img" alt="...">
+    </div>
+    
+    <div class="carousel-item ">
+      <img src="offers/off11.jpg" class="d-block w-50 mx-auto  item_img" alt="..." style="max-width: 95%; max-height: 100%;">
+    </div>
+    <div class="carousel-item ">
+      <img src="offers/off12.jpg" class="d-block w-50 mx-auto  item_img" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: cadetblue !important"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" >
+    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgb(0, 0, 0) !important"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+    </div>
+    
+  <!-- Contact Us -->
+   <div class="row d-flex py-1 my-1 mx-auto  px-4 justify-content-center text-center " >
+    <hr>
+<h1  style="font-size:50px; color:#930d27;">اوصل لنا</h1>
+<hr>
+   
+  <section id="contact" class="container my-3 p-3" style="width:90vw ;border:1px solid; border-radius:8px; background-color:rgb(200 230 239);;">
+    
+    <div class="row gy-3 align-items-center">
+      <div class="col-12 col-md-6">
+        <div>
+          <h4 class="mb-2">العنوان</h4>
+          <p class="mb-0">فندق نادي البحارة الدولي بالسويس</p>
+        </div>
+
+        <div class="mb-3">
+          <br>
+          <p class="mb-0">للطلبات والاستفسارات:</p>
+          <ul class="list-unstyled mt-2">
+            <li><a href="tel:+201234567890">+20 123 456 7890</a></li>
+            <li><a href="tel:+201112223334">+20 111 222 3334</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="mb-3">
+          <br>
+          <p class="mb-2">تابعونا على :</p>
+          <div class="d-flex gap-3 justify-content-center">
+            <a href="#" class="btn btn-outline-primary" aria-label="Facebook" title="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="btn btn-outline-danger" aria-label="Instagram" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="btn btn-outline-success" aria-label="WhatsApp" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="btn btn-outline-info" aria-label="Twitter" title="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="ratio ratio-16x9" style="border:1px solid #e6e6e6; border-radius:6px; overflow:hidden;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.529688587167!2d32.5599383!3d29.935439199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1456255f2259853f%3A0xe778ec25ccb78c65!2z2YbYp9iv2Ykg2KfZhNio2K3Yp9ix2Kkg2KfZhNiv2YjZhNmJINio2KfZhNiz2YjZitiz!5e0!3m2!1sar!2seg!4v1776592796531!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
